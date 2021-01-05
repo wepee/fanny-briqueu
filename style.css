@@ -1,0 +1,142 @@
+.top-line {
+    position: fixed;
+    vertical-align: bottom;
+    margin-top: 24px;
+    margin-left: 80px;
+    font-size: x-large;
+}
+
+.top-line > a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #f2d194;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    height: 860px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 130px;
+    font-size: 160px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    margin: 0;
+}
+
+p, span {
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitle {
+    margin-top: 5px;
+}
+
+hr {
+    height: 1px;
+    background-color: white;
+    border: 0;
+}
+
+.hero-content {
+    margin: auto;
+}
+
+main {
+    width: 980px;
+    margin: 100px auto;
+}
+
+#pantome {
+    margin: 100px auto;
+}
+
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.color {
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.33) 0px 1px 3px 0px;
+    margin: 5px;
+}
+
+#F2A7BB {
+    background-color: #F2A7BB;
+}
+
+#blue {
+    background-color: #6077A6;
+}
+
+#F2D194 {
+    background-color: #f2d194;
+}
+
+#D9A78B {
+    background-color: #D9A78B;
+}
+
+#BF6F6F {
+    background-color: #BF6F6F;
+}
+
+#F2C8C4 {
+    background-color: #F2C8C4;
+}
+
+
+#univers {
+    display: flex;
+}
+
+#presentation{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+button {
+    background-color: #BF6F6F;
+    color: white;
+    border: none;
+    padding: 10px;
+    min-width: 250px;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+}
+
+#social > a > img {
+    margin: 20px;
+    height: 50px;
+    width: auto;
+}
+
+footer {
+    background-color: #f2a7bb;
+}
